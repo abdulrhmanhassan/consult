@@ -1,3 +1,4 @@
+import 'package:consult/screens/on_boarding_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,7 +11,7 @@ class Consult extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Scaffold(),
+      home: OnBoardingScreen(),
     );
   }
 }
